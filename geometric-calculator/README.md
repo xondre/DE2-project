@@ -14,7 +14,7 @@ between the input variables. Encoder is used to change value of the selected inp
 
 ## Hardware description
 
-[Schematic](schematic.png)
+![Schematic of wiring](schematic.png)
 
 To run the simulation:
 * go to the [project simulation webpage](https://wokwi.com/projects/350052781060522578)
