@@ -52,8 +52,7 @@ The process of simulating was as follows:
 
 ## References
 
-1. Write your text here.
-2. [Digilent PmodCLP LCD module picture](https://digilent.com/reference/_media/reference/pmod/pmodclp/pmodclp-1.png)
-3. [Arduino UNO picture](https://docs.wokwi.com/parts/wokwi-arduino-uno)
-4. [Digilent PmodCLP LCD module pinout](https://digilent.com/reference/pmod/pmodclp/start)
-5. [Tool for creating custom character definitons](https://omerk.github.io/lcdchargen/)
+1. [Digilent PmodCLP LCD module information](https://digilent.com/reference/pmod/pmodclp/start)
+2. [Atmega328P datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
+3. [online simulator wokwi](https://wokwi.com/)
+4. [Tool for creating custom character definitons](https://omerk.github.io/lcdchargen/)
