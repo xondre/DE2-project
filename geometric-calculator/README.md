@@ -40,7 +40,13 @@ Insert descriptive text and schematic(s) of your implementation.
 
 ## Software description
 
-Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
+![main](main.png)
+![INT0_vect](INT0.png)
+![ADC](ADC.png)
+![get_joystick](get_joystick.png)
+![update_input](update_input.png)
+![update_result](update_result.png)
+![add_decimal](add_decimal.png)
 
 ## Video
 
