@@ -34,4 +34,5 @@ Put flowchats of your algorithm(s). Write descriptive text of your libraries and
 ## References
 
 1. Write your text here.
-2. ...
+2. [Digilent PmodCLP LCD module picture](https://digilent.com/reference/_media/reference/pmod/pmodclp/pmodclp-1.png)
+3. 
