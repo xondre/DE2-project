@@ -14,14 +14,26 @@ between the input variables. Encoder is used to change value of the selected inp
 
 ## Hardware description
 
+Most of the pins on each component can be connected directly to Arduino UNO, with exception of ground and power supply pins, which first need to go
+to some kind of bus, such as breadboard, and then to Arduino. In this project, the display module works in 4-bit mode and therefore only the lower
+portion of J1 connector is wired. Because the rotary encoder utilizes external interrupt INT0, it has to be connected to the pin D2. Similarly, outputs
+from the joystick have to be connected to pins A0 and A1 because the code is written to use ADC channels 0 and 1.
+
 ![Schematic of wiring](schematic.png)
 
-To run the simulation:
+## Simulation
+
+This project was developed mainly using the online Arduino simulator [wokwi](https://wokwi.com/). Testing on the real board was done only as a last step.
+Below is the link for the simulation project.
+The process of simulating was as follows:
+* compile the code and create HEX file
 * go to the [project simulation webpage](https://wokwi.com/projects/350052781060522578)
 * click into the "source_code.ino" tab in the top left part of the screen
 * click anywhere into the empty code
 * press F1 and type "HEX"
 * select "Load HEX file and Start Simulation"
+* select the HEX file for uploading
+* simulation starts
 
 
 Insert descriptive text and schematic(s) of your implementation.
