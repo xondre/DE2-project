@@ -51,3 +51,4 @@ Put flowchats of your algorithm(s). Write descriptive text of your libraries and
 1. Write your text here.
 2. [Digilent PmodCLP LCD module picture](https://digilent.com/reference/_media/reference/pmod/pmodclp/pmodclp-1.png)
 3. [Digilent PmodCLP LCD module pinout](https://digilent.com/reference/pmod/pmodclp/start)
+4. [Tool for creating custom character definitons]https://omerk.github.io/lcdchargen/
