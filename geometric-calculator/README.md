@@ -5,8 +5,7 @@
 This project was created in the spirit of showing an example how could the analog joy-stick, rotary encoder and Digilent PmodCLP LCD module
 be combined into single working system on the platform of Arduino UNO. The project is a calculator which can compute surface and perimeter
 of rectangle or circle. Moving the joystick up or down changes the result type (rectangle or circle) and moving it left or right switches
-between the input variables. Encoder is used to change value of the selected input variable. Since our team wasn't able to finish the practical
-realization fast enough to test it in a lab, the project was simulated in the online simulator [wokwi](https://wokwi.com).
+between the input variables. Encoder is used to change value of the selected input variable.
 
 ### Team members
 
