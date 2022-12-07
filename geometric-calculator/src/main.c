@@ -114,6 +114,7 @@ uint8_t custom_char[64] = {
  *            the initial decimal part
  * Returns:  none
  **********************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/add_decimal.png
 void add_decimal(uint16_t *result, uint16_t *decimal)
 {
   //rounding the 1st 2 decimal digits
@@ -134,6 +135,7 @@ void add_decimal(uint16_t *result, uint16_t *decimal)
  *            the displayed value
  * Returns: none
  ************************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/update_input.png
 void update_input(uint8_t col, uint8_t row, int8_t *value)
 {
   if(*value > 9)  //if the value was changed to be out of <0;9>, move it back
@@ -151,6 +153,7 @@ void update_input(uint8_t col, uint8_t row, int8_t *value)
  * Arguments: none
  * Returns: none
  ************************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/update_result.png
 void update_result(void)
 {
   uint16_t P = 0;   //perimeter
@@ -230,6 +233,7 @@ void update_result(void)
  * Returns: number from 0 to 4 representing the joystick position   4 0 2
  *                                                                    3
  ************************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/get_joystick.png
 uint8_t get_joystick(void)
 { 
   uint8_t position = 0;   //internal return value 
@@ -280,6 +284,7 @@ uint8_t get_joystick(void)
  * Arguments: none
  * Returns: 0 if it ends successfully
  ************************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/main.png
 int main(void)
 {  
   
@@ -379,6 +384,7 @@ int main(void)
  * Purpose: Sensing the movement of the encoder and changing the value
  *          of the selected input variable
 ***********************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/INT0.png
 ISR(INT0_vect)
 {
   static int8_t step = 0;   //
@@ -412,6 +418,7 @@ ISR(INT0_vect)
  * Function: ADC complete interrupt
  * Purpose:  Read current value of one of the axes in joystick
  **********************************************************************/
+//https://github.com/xondre/DE2-project/blob/main/geometric-calculator/ADC.png
 ISR(ADC_vect)
 { 
   //depending on the axis which was selected prior
