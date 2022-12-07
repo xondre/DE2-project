@@ -36,8 +36,6 @@ The process of simulating was as follows:
 * simulation starts
 
 
-Insert descriptive text and schematic(s) of your implementation.
-
 ## Software description
 
 ![main](main.png)
