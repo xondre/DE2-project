@@ -13,6 +13,9 @@ between the input variables. Encoder is used to change value of the selected inp
 * Dominik Vaško
 
 ## Hardware description
+
+[Schematic](schematic.png)
+
 To run the simulation:
 * go to the [project simulation webpage](https://wokwi.com/projects/350052781060522578)
 * click into the "source_code.ino" tab in the top left part of the screen
